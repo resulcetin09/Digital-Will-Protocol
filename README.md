@@ -57,14 +57,7 @@ Eternal Vault uses a **heartbeat-based liveness detection system**:
 
 ## 🖼️ Screenshots
 
-### Setup Wizard
-![Setup Wizard](docs/reference/image1.png)
-*Three-step setup process: Connect wallet, configure will parameters, and lock assets*
-
-### Dashboard
-![Dashboard](docs/reference/image2.png)
-*Real-time countdown display showing time until next heartbeat required*
-
+https://www.loom.com/share/e501fb6e43f140948d4a7f426d35a35d
 ---
 
 ## 🏗️ Architecture
