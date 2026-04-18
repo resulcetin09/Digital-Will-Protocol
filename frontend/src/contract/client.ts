@@ -8,6 +8,13 @@
 
 import type { WillInfo } from './types'
 
+// ── Contract Configuration ──────────────────────────────────────────────
+// TODO: Replace with actual deployed contract ID after deployment
+// Deploy command: stellar contract deploy --wasm target/wasm32-unknown-unknown/release/digital_will_protocol.wasm --network testnet
+export const CONTRACT_ID = 'CXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' // Placeholder
+export const NETWORK = 'testnet'
+export const RPC_URL = 'https://soroban-testnet.stellar.org'
+
 // ── Mock state (in-memory, resets on page reload) ──────────────────────
 let mockState: WillInfo = {
   state: 'Active',

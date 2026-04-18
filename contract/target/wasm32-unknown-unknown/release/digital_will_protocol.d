@@ -1,0 +1,1 @@
+C:\Users\resul\Desktop\Digital-Will-Protocol\contract\target\wasm32-unknown-unknown\release\digital_will_protocol.wasm: C:\Users\resul\Desktop\Digital-Will-Protocol\contract\src\error.rs C:\Users\resul\Desktop\Digital-Will-Protocol\contract\src\lib.rs C:\Users\resul\Desktop\Digital-Will-Protocol\contract\src\state.rs

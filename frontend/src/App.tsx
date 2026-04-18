@@ -1,16 +1,17 @@
 import { useState } from 'react'
+import Landing from './pages/Landing'
 import Setup from './pages/Setup'
 import Dashboard from './pages/Dashboard'
 import Beneficiary from './pages/Beneficiary'
 
-type Route = 'setup' | 'dashboard' | 'beneficiary'
+type Route = 'landing' | 'setup' | 'dashboard' | 'beneficiary'
 
 function getInitialRoute(): Route {
   const params = new URLSearchParams(window.location.search)
   if (params.get('contract')) return 'beneficiary'
   const saved = localStorage.getItem('dwp_contract')
   if (saved) return 'dashboard'
-  return 'setup'
+  return 'landing'
 }
 
 export default function App() {
@@ -39,5 +40,8 @@ export default function App() {
   if (route === 'dashboard') {
     return <Dashboard contractAddress={contractAddress} onReset={handleReset} />
   }
-  return <Setup onComplete={handleSetupComplete} />
+  if (route === 'setup') {
+    return <Setup onComplete={handleSetupComplete} />
+  }
+  return <Landing onGetStarted={() => setRoute('setup')} />
 }
