@@ -9,9 +9,9 @@
 import type { WillInfo } from './types'
 
 // ── Contract Configuration ──────────────────────────────────────────────
-// TODO: Replace with actual deployed contract ID after deployment
+// ✅ Contract deployed to testnet
 // Deploy command: stellar contract deploy --wasm target/wasm32-unknown-unknown/release/digital_will_protocol.wasm --network testnet
-export const CONTRACT_ID = 'CXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' // Placeholder
+export const CONTRACT_ID = 'CARKIEYHI3K2NFUVYPSKJWEPDDB26MPNVVAC5YMOLNINSGMDD5J77UZU'
 export const NETWORK = 'testnet'
 export const RPC_URL = 'https://soroban-testnet.stellar.org'
 

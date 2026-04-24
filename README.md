@@ -138,6 +138,33 @@ Update the heartbeat interval (owner only, min: 60 seconds).
 
 ---
 
+## 🎉 Live Deployment
+
+**The Digital Will Protocol is now live on Stellar Testnet!**
+
+### 📍 Contract Information
+
+- **Contract ID:** `CARKIEYHI3K2NFUVYPSKJWEPDDB26MPNVVAC5YMOLNINSGMDD5J77UZU`
+- **Network:** Stellar Testnet
+- **Deploy Date:** April 24, 2026
+- **Contract Explorer:** [View on Stellar Expert](https://stellar.expert/explorer/testnet/tx/d06deacd0d34d858facb1c04f24444c49e78d135d2a19a86f2a53cf6b6361e7f)
+- **Stellar Lab:** [Interact with Contract](https://lab.stellar.org/r/testnet/contract/CARKIEYHI3K2NFUVYPSKJWEPDDB26MPNVVAC5YMOLNINSGMDD5J77UZU)
+
+### 🔗 Quick Links
+
+- **Frontend Demo:** [Coming Soon - Deploy your own]
+- **Transaction History:** [Stellar Expert](https://stellar.expert/explorer/testnet/account/GDNSISXTTQXJ45TTVK75QP5OORBVE5IZVY4TUDRXAG3ZLZSA4MUYOMSK)
+- **Contract Source:** [GitHub](https://github.com/yourusername/digital-will-protocol/tree/main/contract)
+
+### 🧪 Try It Out
+
+1. **Get Testnet XLM:** Use [Friendbot](https://laboratory.stellar.org/#account-creator?network=test) to fund your testnet account
+2. **Clone & Run Frontend:** Follow the setup instructions below
+3. **Initialize Your Will:** Connect your wallet and set up a digital will
+4. **Test Heartbeats:** Send heartbeats to keep your will active
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -250,7 +277,7 @@ stellar contract deploy \
 
 **Output:**
 ```
-CXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+CARKIEYHI3K2NFUVYPSKJWEPDDB26MPNVVAC5YMOLNINSGMDD5J77UZU
 ```
 
 ### 5. Update Frontend
@@ -258,7 +285,7 @@ CXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Update `frontend/src/contract/client.ts`:
 
 ```typescript
-export const CONTRACT_ID = 'CXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+export const CONTRACT_ID = 'CARKIEYHI3K2NFUVYPSKJWEPDDB26MPNVVAC5YMOLNINSGMDD5J77UZU'
 ```
 
 ### 6. Deploy Frontend
