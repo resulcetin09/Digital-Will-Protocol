@@ -84,6 +84,9 @@ https://www.loom.com/share/e501fb6e43f140948d4a7f426d35a35d
 
 ## 📋 Smart Contract Functions
 
+<img width="808" height="214" alt="{AD10A38D-496C-438A-8D7E-DB0705F6473C}" src="https://github.com/user-attachments/assets/cd9ca420-3e2f-4a2a-b3a9-308ab9e46ca0" />
+
+
 ### Core Functions
 
 #### `initialize(owner, beneficiary, heartbeat_interval)`
